@@ -37,7 +37,7 @@ public class Main {
         }
         System.out.println("Users word or sentence reversed is: " + ReversedWord );
 
-        if(UserWord.toLowerCase().equals(ReversedWord))
+        if(UserWord.equals(ReversedWord))
         {
             System.out.println("YAY, it is a Palindrome!!!!!");
         }
